@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+/* column */
+[class*="col-"] {
+  height: 200px;
+  background-color: aqua;
+}
+.col-1 {
+  width: calc(100% / 12 * 1);
+}
