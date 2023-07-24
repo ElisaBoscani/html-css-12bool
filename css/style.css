@@ -1,0 +1,23 @@
+div {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.height {
+  height: 100px;
+}
+
+.my-2 {
+  margin: 0 2rem;
+}
+.nested_container {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.nested {
+  justify-content: center;
+  border: none;
+  width: 85%;
+}
